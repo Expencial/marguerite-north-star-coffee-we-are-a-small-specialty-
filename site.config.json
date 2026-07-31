@@ -50,10 +50,10 @@
       "href": "#contact"
     },
     "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
-    "visualLabel": "Notre mascotte",
-    "visualCaption": "Koala coffee break",
-    "visualAlt": "Photo d’un koala au regard doux, aux tons chauds crème et espresso",
-    "visualImage": "./hero-koala.jpg"
+    "visualLabel": "Fleur du jour",
+    "visualCaption": "Beautiful bloom · North Star",
+    "visualAlt": "A beautiful soft cream and blush flower in warm café light",
+    "visualImage": "./hero-flower.jpg"
   },
   "about": {
     "eyebrow": "Notre maison",
