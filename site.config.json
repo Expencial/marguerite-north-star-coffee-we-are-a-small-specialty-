@@ -98,8 +98,8 @@
         "caption": "Extraction courte · notes chocolatées",
         "alt": "Composition graphique brun et crème évoquant une tasse d’espresso",
         "colors": [
-          "#6b3f2a",
-          "#c4a574"
+          "#635bff",
+          "#0a2540"
         ]
       },
       {
@@ -107,8 +107,8 @@
         "caption": "V60 · origine rotative",
         "alt": "Composition graphique ambre et terracotta évoquant un café filtre",
         "colors": [
-          "#c4783a",
-          "#5c3d2e"
+          "#00d4ff",
+          "#0a2540"
         ]
       },
       {
@@ -116,8 +116,8 @@
         "caption": "Prises · Wi-Fi · lumière du jour",
         "alt": "Composition graphique vert sauge et crème évoquant un coin travail calme",
         "colors": [
-          "#5a6b5c",
-          "#e8dfd2"
+          "#7a73ff",
+          "#1a1f36"
         ]
       }
     ]
@@ -166,28 +166,28 @@
     "backToTop": "Retour en haut"
   },
   "palette": {
-    "background": "#f3eee7",
-    "surface": "#fbf8f3",
-    "ink": "#1a1410",
-    "muted": "#6a5a4e",
-    "accent": "#b4532a",
-    "accentContrast": "#fffaf5",
-    "secondary": "#3d5a4c",
-    "line": "#d9cfc2"
+    "background": "#ffffff",
+    "surface": "#f6f9fc",
+    "ink": "#0a2540",
+    "muted": "#425466",
+    "accent": "#635bff",
+    "accentContrast": "#ffffff",
+    "secondary": "#00d4ff",
+    "line": "#e6ebf1"
   },
   "paletteDark": {
-    "background": "#161210",
-    "surface": "#221c18",
-    "ink": "#f4ebe3",
-    "muted": "#b4a498",
-    "accent": "#d4784a",
-    "accentContrast": "#1a120e",
-    "secondary": "#7a9e8a",
-    "line": "#3c322a"
+    "background": "#0a2540",
+    "surface": "#0f2e4d",
+    "ink": "#f6f9fc",
+    "muted": "#adbfd0",
+    "accent": "#7a73ff",
+    "accentContrast": "#0a2540",
+    "secondary": "#00d4ff",
+    "line": "#1b3a5a"
   },
   "fontPair": {
-    "display": "\"Fraunces\", Georgia, serif",
-    "body": "\"Source Sans 3\", system-ui, sans-serif",
-    "stylesheetUrl": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+    "display": "\"Inter\", system-ui, -apple-system, sans-serif",
+    "body": "\"Inter\", system-ui, -apple-system, sans-serif",
+    "stylesheetUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
   }
 }
