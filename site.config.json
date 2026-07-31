@@ -50,10 +50,10 @@
       "href": "#contact"
     },
     "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
-    "visualLabel": "Fleur du jour",
-    "visualCaption": "Beautiful bloom · North Star",
-    "visualAlt": "A beautiful soft cream and blush flower in warm café light",
-    "visualImage": "./hero-flower.jpg"
+    "visualLabel": "Notre mascotte",
+    "visualCaption": "Koala coffee break",
+    "visualAlt": "Photo d’un koala au regard doux, aux tons chauds crème et espresso",
+    "visualImage": "./hero-koala.jpg"
   },
   "about": {
     "eyebrow": "Notre maison",
@@ -64,7 +64,8 @@
     ],
     "highlight": "Étudiants, télétravailleurs, familles du coin : tout le monde a sa place ici.",
     "imageLabel": "Depuis 2022",
-    "imageAlt": "Composition abstraite aux tons crème et espresso évoquant l’ambiance du café"
+    "imageAlt": "Intérieur chaleureux du café avec tables en bois, lumière douce et places pour étudier ou travailler",
+    "image": "./about-interior.jpg"
   },
   "services": {
     "eyebrow": "À la carte",
@@ -96,28 +97,31 @@
       {
         "label": "L’espresso maison",
         "caption": "Extraction courte · notes chocolatées",
-        "alt": "Composition graphique brun et crème évoquant une tasse d’espresso",
+        "alt": "Tasse d’espresso fumante dans une céramique claire, lumière chaude dorée",
+        "image": "./gallery-espresso.jpg",
         "colors": [
-          "#635bff",
-          "#0a2540"
+          "#c4783a",
+          "#5c3d2e"
         ]
       },
       {
         "label": "Le filtre du jour",
         "caption": "V60 · origine rotative",
-        "alt": "Composition graphique ambre et terracotta évoquant un café filtre",
+        "alt": "Préparation d’un café filtre V60 avec verseuse et lumière ambrée",
+        "image": "./gallery-filter.jpg",
         "colors": [
-          "#00d4ff",
-          "#0a2540"
+          "#d4924a",
+          "#6b3f2a"
         ]
       },
       {
         "label": "La table du fond",
         "caption": "Prises · Wi-Fi · lumière du jour",
-        "alt": "Composition graphique vert sauge et crème évoquant un coin travail calme",
+        "alt": "Table de travail près d’une fenêtre avec ordinateur, carnet, viennoiserie et café",
+        "image": "./gallery-workspace.jpg",
         "colors": [
-          "#7a73ff",
-          "#1a1f36"
+          "#e8c49a",
+          "#8a6a4e"
         ]
       }
     ]

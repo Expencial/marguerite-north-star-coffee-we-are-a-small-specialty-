@@ -29,14 +29,16 @@ export function Gallery({ gallery }: GalleryProps) {
               data-reveal
               style={style}
             >
-              <div
-                className="gallery-placeholder"
-                role="img"
-                aria-label={item.alt}
-              >
-                <span className="gallery-shape gallery-shape--one" aria-hidden="true" />
-                <span className="gallery-shape gallery-shape--two" aria-hidden="true" />
-                <span className="gallery-grain" aria-hidden="true" />
+              <div className="gallery-media">
+                <img
+                  className="gallery-photo"
+                  src={item.image}
+                  alt={item.alt}
+                  width={1152}
+                  height={864}
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <figcaption>
                 <strong>{item.label}</strong>

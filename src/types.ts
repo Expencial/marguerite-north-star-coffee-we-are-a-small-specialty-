@@ -42,6 +42,7 @@ export interface SiteConfig {
     highlight: string;
     imageLabel: string;
     imageAlt: string;
+    image: string;
   };
   services: {
     eyebrow: string;
@@ -61,6 +62,7 @@ export interface SiteConfig {
       label: string;
       caption: string;
       alt: string;
+      image: string;
       colors: [string, string];
     }>;
   };
