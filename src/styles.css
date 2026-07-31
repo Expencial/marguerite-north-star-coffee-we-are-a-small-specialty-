@@ -11,15 +11,19 @@
 
   html {
     scroll-behavior: smooth;
+    background: var(--color-background, #f8f2e8);
   }
 
   body {
     margin: 0;
     min-width: 320px;
-    background: #f8f2e8;
-    color: #33271f;
+    background: var(--color-background, #f8f2e8);
+    color: var(--color-ink, #33271f);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    transition:
+      background-color 220ms ease,
+      color 220ms ease;
   }
 
   button,
@@ -46,6 +50,17 @@
       var(--color-background);
     color: var(--color-ink);
     font-family: var(--font-body);
+    transition:
+      background-color 220ms ease,
+      color 220ms ease;
+  }
+
+  .site[data-theme="dark"] {
+    --shadow-soft: 0 26px 70px rgb(0 0 0 / 42%);
+    background:
+      radial-gradient(circle at 12% 0%, rgb(212 120 74 / 12%), transparent 26rem),
+      radial-gradient(circle at 88% 8%, rgb(122 158 138 / 10%), transparent 22rem),
+      var(--color-background);
   }
 
   .shell {
@@ -240,8 +255,58 @@
     padding: 0.6rem 1rem;
   }
 
+  .header-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
   .header-cta {
     display: none;
+  }
+
+  .theme-toggle {
+    display: inline-grid;
+    width: 2.65rem;
+    height: 2.65rem;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-surface), transparent 8%);
+    color: var(--color-ink);
+    cursor: pointer;
+    transition:
+      transform 180ms ease,
+      background 180ms ease,
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .theme-toggle:hover {
+    border-color: color-mix(in srgb, var(--color-accent), var(--color-line) 45%);
+    background: var(--color-surface);
+    box-shadow: 0 8px 22px color-mix(in srgb, var(--color-ink), transparent 90%);
+    transform: translateY(-1px);
+  }
+
+  .theme-toggle-icon {
+    display: grid;
+    place-items: center;
+  }
+
+  .theme-toggle-icon svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .site[data-theme="dark"] .theme-toggle-icon svg {
+    fill: color-mix(in srgb, currentColor, transparent 82%);
   }
 
   .hero {
@@ -612,6 +677,22 @@
     transition:
       transform 220ms ease,
       box-shadow 220ms ease;
+  }
+
+  .site[data-theme="dark"] .service-card {
+    background: color-mix(in srgb, var(--color-surface), var(--color-background) 35%);
+  }
+
+  .site[data-theme="dark"] .hours {
+    color: #f4ebe3;
+  }
+
+  .site[data-theme="dark"] .hours .eyebrow {
+    color: #e2b57a;
+  }
+
+  .site[data-theme="dark"] .availability span {
+    border-color: color-mix(in srgb, var(--color-secondary), white 35%);
   }
 
   .service-card:hover {

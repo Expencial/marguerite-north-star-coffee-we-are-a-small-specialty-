@@ -7,16 +7,33 @@
     "description": "Petit café de spécialité à Lyon pour étudiants, télétravailleurs et familles du quartier. Espressos soignés, extractions filtrées et espace accueillant."
   },
   "accessibility": {
-    "skipToContent": "Aller au contenu"
+    "skipToContent": "Aller au contenu",
+    "themeToggleToDark": "Activer le mode sombre",
+    "themeToggleToLight": "Activer le mode clair"
   },
   "navigation": {
     "ariaLabel": "Navigation principale",
     "items": [
-      { "label": "Notre histoire", "href": "#histoire" },
-      { "label": "À la carte", "href": "#savoir-faire" },
-      { "label": "Ambiance", "href": "#galerie" },
-      { "label": "Horaires", "href": "#horaires" },
-      { "label": "Nous trouver", "href": "#contact" }
+      {
+        "label": "Notre histoire",
+        "href": "#histoire"
+      },
+      {
+        "label": "À la carte",
+        "href": "#savoir-faire"
+      },
+      {
+        "label": "Ambiance",
+        "href": "#galerie"
+      },
+      {
+        "label": "Horaires",
+        "href": "#horaires"
+      },
+      {
+        "label": "Nous trouver",
+        "href": "#contact"
+      }
     ],
     "contactLabel": "Venir nous voir"
   },
@@ -24,8 +41,14 @@
     "eyebrow": "Café de spécialité · Lyon",
     "title": "Votre étoile du matin, entre deux cours ou un appel Zoom.",
     "description": "North Star Coffee est un petit café de quartier à Lyon. Grains torréfiés avec soin, extractions précises, Wi-Fi fiable et une table pour tout le monde — étudiants, remote workers et familles.",
-    "primaryCta": { "label": "Visit us today", "href": "#savoir-faire" },
-    "secondaryCta": { "label": "Nous trouver", "href": "#contact" },
+    "primaryCta": {
+      "label": "Visit us today",
+      "href": "#savoir-faire"
+    },
+    "secondaryCta": {
+      "label": "Nous trouver",
+      "href": "#contact"
+    },
     "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
     "visualLabel": "Notre mascotte",
     "visualCaption": "Koala coffee break",
@@ -74,19 +97,28 @@
         "label": "L’espresso maison",
         "caption": "Extraction courte · notes chocolatées",
         "alt": "Composition graphique brun et crème évoquant une tasse d’espresso",
-        "colors": ["#6b3f2a", "#c4a574"]
+        "colors": [
+          "#6b3f2a",
+          "#c4a574"
+        ]
       },
       {
         "label": "Le filtre du jour",
         "caption": "V60 · origine rotative",
         "alt": "Composition graphique ambre et terracotta évoquant un café filtre",
-        "colors": ["#c4783a", "#5c3d2e"]
+        "colors": [
+          "#c4783a",
+          "#5c3d2e"
+        ]
       },
       {
         "label": "La table du fond",
         "caption": "Prises · Wi-Fi · lumière du jour",
         "alt": "Composition graphique vert sauge et crème évoquant un coin travail calme",
-        "colors": ["#5a6b5c", "#e8dfd2"]
+        "colors": [
+          "#5a6b5c",
+          "#e8dfd2"
+        ]
       }
     ]
   },
@@ -95,10 +127,22 @@
     "title": "Passez quand l’étoile brille.",
     "note": "Les jours fériés, nos horaires peuvent changer. Un doute ? Écrivez-nous sur WhatsApp.",
     "days": [
-      { "label": "Lundi", "value": "8h00 — 18h30" },
-      { "label": "Mardi — vendredi", "value": "7h30 — 19h00" },
-      { "label": "Samedi", "value": "8h30 — 19h00" },
-      { "label": "Dimanche", "value": "9h00 — 17h00" }
+      {
+        "label": "Lundi",
+        "value": "8h00 — 18h30"
+      },
+      {
+        "label": "Mardi — vendredi",
+        "value": "7h30 — 19h00"
+      },
+      {
+        "label": "Samedi",
+        "value": "8h30 — 19h00"
+      },
+      {
+        "label": "Dimanche",
+        "value": "9h00 — 17h00"
+      }
     ]
   },
   "contact": {
@@ -130,6 +174,16 @@
     "accentContrast": "#fffaf5",
     "secondary": "#3d5a4c",
     "line": "#d9cfc2"
+  },
+  "paletteDark": {
+    "background": "#161210",
+    "surface": "#221c18",
+    "ink": "#f4ebe3",
+    "muted": "#b4a498",
+    "accent": "#d4784a",
+    "accentContrast": "#1a120e",
+    "secondary": "#7a9e8a",
+    "line": "#3c322a"
   },
   "fontPair": {
     "display": "\"Fraunces\", Georgia, serif",

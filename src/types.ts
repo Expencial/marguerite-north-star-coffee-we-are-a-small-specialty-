@@ -15,6 +15,8 @@ export interface SiteConfig {
   };
   accessibility: {
     skipToContent: string;
+    themeToggleToDark: string;
+    themeToggleToLight: string;
   };
   navigation: {
     ariaLabel: string;
@@ -101,9 +103,21 @@ export interface SiteConfig {
     secondary: string;
     line: string;
   };
+  paletteDark: {
+    background: string;
+    surface: string;
+    ink: string;
+    muted: string;
+    accent: string;
+    accentContrast: string;
+    secondary: string;
+    line: string;
+  };
   fontPair: {
     display: string;
     body: string;
     stylesheetUrl: string;
   };
 }
+
+export type ThemeMode = "light" | "dark";
