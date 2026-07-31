@@ -28,9 +28,9 @@
     "secondaryCta": { "label": "Nous trouver", "href": "#contact" },
     "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
     "visualLabel": "Notre mascotte",
-    "visualCaption": "Girafe · Ambiance North Star",
-    "visualAlt": "Photo d’une girafe au regard doux, aux tons chauds crème et espresso",
-    "visualImage": "/hero-giraffe.jpg"
+    "visualCaption": "Koala · Ambiance North Star",
+    "visualAlt": "Photo d’un koala au regard doux, aux tons chauds crème et espresso",
+    "visualImage": "/hero-koala.jpg"
   },
   "about": {
     "eyebrow": "Notre maison",
