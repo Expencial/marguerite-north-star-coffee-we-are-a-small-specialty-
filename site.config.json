@@ -27,9 +27,10 @@
     "primaryCta": { "label": "Découvrir la carte", "href": "#savoir-faire" },
     "secondaryCta": { "label": "Nous trouver", "href": "#contact" },
     "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
-    "visualLabel": "L’extraction du jour",
-    "visualCaption": "Spécialité · Torréfaction artisanale",
-    "visualAlt": "Composition graphique aux tons café évoquant une tasse d’espresso fumante"
+    "visualLabel": "Notre mascotte",
+    "visualCaption": "Girafe · Ambiance North Star",
+    "visualAlt": "Photo d’une girafe au regard doux, aux tons chauds crème et espresso",
+    "visualImage": "/hero-giraffe.jpg"
   },
   "about": {
     "eyebrow": "Notre maison",

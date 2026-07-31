@@ -25,25 +25,18 @@ export function Hero({ hero }: HeroProps) {
         </p>
       </div>
 
-      <figure
-        className="hero-visual"
-        role="img"
-        aria-label={hero.visualAlt}
-      >
+      <figure className="hero-visual">
         <span className="hero-visual-label">{hero.visualLabel}</span>
-        <div className="window-scene" aria-hidden="true">
-          <span className="sun-disc" />
-          <span className="leaf leaf--one" />
-          <span className="leaf leaf--two" />
-          <span className="loaf loaf--large">
-            <i />
-            <i />
-            <i />
-          </span>
-          <span className="loaf loaf--small">
-            <i />
-            <i />
-          </span>
+        <div className="window-scene">
+          <img
+            className="hero-photo"
+            src={hero.visualImage}
+            alt={hero.visualAlt}
+            width={900}
+            height={1200}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
         <figcaption>{hero.visualCaption}</figcaption>
       </figure>

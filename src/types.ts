@@ -31,6 +31,7 @@ export interface SiteConfig {
     visualLabel: string;
     visualCaption: string;
     visualAlt: string;
+    visualImage: string;
   };
   about: {
     eyebrow: string;
