@@ -1,0 +1,138 @@
+{
+  "businessName": "North Star Coffee",
+  "locale": "fr",
+  "tagline": "Café de spécialité · Lyon",
+  "meta": {
+    "title": "North Star Coffee — Café de spécialité à Lyon",
+    "description": "Petit café de spécialité à Lyon pour étudiants, télétravailleurs et familles du quartier. Espressos soignés, extractions filtrées et espace accueillant."
+  },
+  "accessibility": {
+    "skipToContent": "Aller au contenu"
+  },
+  "navigation": {
+    "ariaLabel": "Navigation principale",
+    "items": [
+      { "label": "Notre histoire", "href": "#histoire" },
+      { "label": "À la carte", "href": "#savoir-faire" },
+      { "label": "Ambiance", "href": "#galerie" },
+      { "label": "Horaires", "href": "#horaires" },
+      { "label": "Nous trouver", "href": "#contact" }
+    ],
+    "contactLabel": "Venir nous voir"
+  },
+  "hero": {
+    "eyebrow": "Café de spécialité · Lyon",
+    "title": "Votre étoile du matin, entre deux cours ou un appel Zoom.",
+    "description": "North Star Coffee est un petit café de quartier à Lyon. Grains torréfiés avec soin, extractions précises, Wi-Fi fiable et une table pour tout le monde — étudiants, remote workers et familles.",
+    "primaryCta": { "label": "Découvrir la carte", "href": "#savoir-faire" },
+    "secondaryCta": { "label": "Nous trouver", "href": "#contact" },
+    "note": "Ouvert aujourd’hui · Wi-Fi & prises à disposition",
+    "visualLabel": "L’extraction du jour",
+    "visualCaption": "Spécialité · Torréfaction artisanale",
+    "visualAlt": "Composition graphique aux tons café évoquant une tasse d’espresso fumante"
+  },
+  "about": {
+    "eyebrow": "Notre maison",
+    "title": "Un café calme, sincère, taillé pour le quotidien lyonnais.",
+    "body": [
+      "North Star Coffee est né d’une envie simple : un lieu où l’on boit un excellent café sans chichi, que l’on vienne réviser, enchaîner des mails ou partager un goûter en famille.",
+      "Nous sélectionnons des cafés de spécialité, les extrayons avec précision et gardons une carte courte — boissons chaudes et froides, pâtisseries du jour et quelques en-cas salés."
+    ],
+    "highlight": "Étudiants, télétravailleurs, familles du coin : tout le monde a sa place ici.",
+    "imageLabel": "Depuis 2022",
+    "imageAlt": "Composition abstraite aux tons crème et espresso évoquant l’ambiance du café"
+  },
+  "services": {
+    "eyebrow": "À la carte",
+    "title": "Ce qui fait notre signature",
+    "intro": "Une sélection claire, préparée avec attention — pour bien commencer la journée ou s’installer un moment.",
+    "items": [
+      {
+        "icon": "cup",
+        "title": "Café de spécialité",
+        "description": "Espresso, filtre et boissons lactées à base de grains de saison, extraits pour révéler douceur, fruité et équilibre."
+      },
+      {
+        "icon": "laptop",
+        "title": "Espace de travail",
+        "description": "Wi-Fi stable, prises à chaque table et une ambiance feutrée pour étudier, écrire ou enchaîner une journée en remote."
+      },
+      {
+        "icon": "heart",
+        "title": "Goûters & familles",
+        "description": "Pâtisseries du jour, chocolats chauds et boissons sans café pour les plus petits — un vrai coin de quartier, pas seulement un bureau."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "L’ambiance",
+    "title": "Lumière douce, grains précis, tables accueillantes.",
+    "intro": "Un aperçu de ce qui vous attend : le comptoir, la lumière du matin et les détails qui rendent le lieu chaleureux.",
+    "items": [
+      {
+        "label": "L’espresso maison",
+        "caption": "Extraction courte · notes chocolatées",
+        "alt": "Composition graphique brun et crème évoquant une tasse d’espresso",
+        "colors": ["#6b3f2a", "#c4a574"]
+      },
+      {
+        "label": "Le filtre du jour",
+        "caption": "V60 · origine rotative",
+        "alt": "Composition graphique ambre et terracotta évoquant un café filtre",
+        "colors": ["#c4783a", "#5c3d2e"]
+      },
+      {
+        "label": "La table du fond",
+        "caption": "Prises · Wi-Fi · lumière du jour",
+        "alt": "Composition graphique vert sauge et crème évoquant un coin travail calme",
+        "colors": ["#5a6b5c", "#e8dfd2"]
+      }
+    ]
+  },
+  "hours": {
+    "eyebrow": "Cette semaine",
+    "title": "Passez quand l’étoile brille.",
+    "note": "Les jours fériés, nos horaires peuvent changer. Un doute ? Écrivez-nous sur WhatsApp.",
+    "days": [
+      { "label": "Lundi", "value": "8h00 — 18h30" },
+      { "label": "Mardi — vendredi", "value": "7h30 — 19h00" },
+      { "label": "Samedi", "value": "8h30 — 19h00" },
+      { "label": "Dimanche", "value": "9h00 — 17h00" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Nous trouver",
+    "title": "Venez prendre un café.",
+    "intro": "Questions sur les origines, réservation d’une grande table ou allergènes : on vous répond avec plaisir.",
+    "address": "18, rue Burdeau, 69001 Lyon",
+    "phone": "+33 4 78 00 00 00",
+    "phoneLink": "tel:+33478000000",
+    "email": "bonjour@northstarcoffee.fr",
+    "emailLink": "mailto:bonjour@northstarcoffee.fr",
+    "whatsappLink": "https://wa.me/33600000000",
+    "whatsappLabel": "Écrire sur WhatsApp",
+    "mapLink": "https://www.openstreetmap.org/search?query=18%20rue%20Burdeau%20Lyon",
+    "mapLabel": "Voir sur la carte",
+    "detailsLabel": "Coordonnées"
+  },
+  "footer": {
+    "summary": "Café de spécialité à Lyon — pour étudiants, remote workers et familles du quartier.",
+    "legal": "© 2026 North Star Coffee. Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  },
+  "palette": {
+    "background": "#f3eee7",
+    "surface": "#fbf8f3",
+    "ink": "#1a1410",
+    "muted": "#6a5a4e",
+    "accent": "#b4532a",
+    "accentContrast": "#fffaf5",
+    "secondary": "#3d5a4c",
+    "line": "#d9cfc2"
+  },
+  "fontPair": {
+    "display": "\"Fraunces\", Georgia, serif",
+    "body": "\"Source Sans 3\", system-ui, sans-serif",
+    "stylesheetUrl": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+  }
+}
