@@ -6,7 +6,7 @@ type ContactProps = Pick<SiteConfig, "businessName" | "contact">;
 export function Contact({ businessName, contact }: ContactProps) {
   return (
     <section className="contact section shell" id="contact" aria-labelledby="contact-title">
-      <div className="contact-card">
+      <div className="contact-card" data-reveal>
         <div className="contact-copy" id="contact-title">
           <SectionHeading eyebrow={contact.eyebrow} title={contact.title} />
           <p>{contact.intro}</p>

@@ -8,6 +8,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Hours } from "./components/Hours";
 import { Services } from "./components/Services";
+import { useRevealOnScroll } from "./hooks/useRevealOnScroll";
 import type { SiteConfig, ThemeMode } from "./types";
 
 const config = rawConfig as SiteConfig;
@@ -45,6 +46,7 @@ function paletteToStyle(
 
 export default function App() {
   const [theme, setTheme] = useState<ThemeMode>("light");
+  useRevealOnScroll();
 
   useEffect(() => {
     setTheme(getPreferredTheme());

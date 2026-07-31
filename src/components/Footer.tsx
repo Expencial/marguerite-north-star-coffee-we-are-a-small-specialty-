@@ -4,7 +4,7 @@ type FooterProps = Pick<SiteConfig, "businessName" | "tagline" | "footer">;
 
 export function Footer({ businessName, tagline, footer }: FooterProps) {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" data-reveal>
       <div className="shell footer-main">
         <a className="brand brand--footer" href="#top">
           <span className="brand-mark" aria-hidden="true">

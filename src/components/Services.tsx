@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { SiteConfig } from "../types";
 import { SectionHeading } from "./SectionHeading";
 
@@ -64,7 +65,7 @@ export function Services({ services }: ServicesProps) {
   return (
     <section className="services section" id="savoir-faire" aria-labelledby="services-title">
       <div className="shell">
-        <div id="services-title">
+        <div id="services-title" data-reveal>
           <SectionHeading
             eyebrow={services.eyebrow}
             title={services.title}
@@ -74,7 +75,12 @@ export function Services({ services }: ServicesProps) {
         </div>
         <div className="service-grid">
           {services.items.map((service, index) => (
-            <article className="service-card" key={service.title}>
+            <article
+              className="service-card"
+              key={service.title}
+              data-reveal
+              style={{ "--reveal-delay": `${index * 70}ms` } as CSSProperties}
+            >
               <span className="service-number">0{index + 1}</span>
               <div className="service-icon">
                 <ServiceIcon name={service.icon} />

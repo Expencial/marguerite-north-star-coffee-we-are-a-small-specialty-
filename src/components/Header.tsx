@@ -18,7 +18,7 @@ export function Header({
   onToggleTheme,
 }: HeaderProps) {
   return (
-    <header className="site-header">
+    <header className="site-header header-enter">
       <div className="shell header-inner">
         <a className="brand" href="#top" aria-label={businessName}>
           <span className="brand-mark" aria-hidden="true">

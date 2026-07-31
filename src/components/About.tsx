@@ -10,6 +10,7 @@ export function About({ about }: AboutProps) {
         className="about-art"
         role="img"
         aria-label={about.imageAlt}
+        data-reveal="left"
       >
         <span className="about-stamp">{about.imageLabel}</span>
         <div className="hands-scene" aria-hidden="true">
@@ -22,7 +23,7 @@ export function About({ about }: AboutProps) {
         </div>
       </div>
 
-      <div className="about-copy">
+      <div className="about-copy" data-reveal="right">
         <div id="about-title">
           <SectionHeading eyebrow={about.eyebrow} title={about.title} />
         </div>
